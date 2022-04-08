@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ccpp"
+		},
+		{
+			"path": "..\\CDAC"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project"
+	}
+}

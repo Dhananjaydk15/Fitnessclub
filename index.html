@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Dk Fitness</title>
+    
+</head>
+<style>
+    body{
+        margin: 0px; padding: 0px; 
+        color: white;
+        background: url(img/gym4.jpg);background-size:cover;height: inherit;
+    }
+    .article {
+        clear: left;
+        display: inline-block;
+        margin-bottom: 20%;margin-left: 20%;margin-right: 10%;margin-top:10%;
+        height: 30px;
+        width: 600px;
+
+
+    }
+    .box{
+        color: red;
+        font-size: x-large;
+        position: relative;
+        animation-name: dk1;
+        animation-duration: 8s;
+        animation-iteration-count:infinite;
+        /* animation-fill-mode: forwards; */
+    }
+    @keyframes dk1{
+        0%{
+            top: 0;
+            left: 0;
+        }
+        25%{
+            top: 350px;
+            left: 0px;
+
+        }
+        75%{
+            top:350px;
+            left:350px;
+        }
+        100%{
+            top: 0;
+            left: 350px;
+        }
+    }
+    @keyframes dk{
+        from{
+            width: 0px;
+        }
+        to{
+            width: 400px;
+        }
+    }
+
+</style>
+<link rel="stylesheet" href="CSS/style1.css">
+<body id="body">
+    <header class="header">
+        <div class="left">
+            <a href="index.html"><img src="img/logo.jpg" alt=""></a>
+            <div>Fitness Club</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="Fitnees Tips.html" target="_blank">Fitness Tips</a></li>
+                <li><a href="#" target="_blank">Contact Us</a></li>
+                <li><a href="#" target="_blank">About Us</a></li>
+            </ul>
+        </div>
+        <div class=right>
+            <button type="button" class="btn">call Us</button>
+            <button type="button"class="btn">Mail Us</button>
+        </div>
+    </header>
+    <div id="container">
+        <h4>Join The Best Gym in Dhule</h4>
+        <form action="form.php">
+            <div class="f">
+                Name : <input class="in"  type="text" name="Name">
+            </div>
+            <div class="f">
+                Mobile No. : <input class="in" type="number" name="Mobile No:.">
+            </div>
+            <div class="f">
+                Mail Id : <input class="in" type="email">
+            </div>
+            <div class="f">
+                Birth Date : <input class="in" type="date" name="Birth D">
+            </div>
+            <div class="f">
+                Location : <input class="in" type="text" name="Location">
+            </div>
+            <div class="f">
+                <input class="f1" value="Submit" type="submit" >
+                <input type="reset" class="f1" value="Reset">
+            </div>
+            
+        </form>
+    </div>
+    <div class="article">
+        <h3 class="box">Site on Working!...</h3>
+    </div>
+    <footer class="footer">
+        <h4>Copyright&copy;</h4>
+    </footer>
+</body>
+</html>
